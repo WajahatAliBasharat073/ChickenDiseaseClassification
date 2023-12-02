@@ -1,0 +1,59 @@
+# This code is a pip-requirements file. It lists all the Python packages required for a project.
+
+# Each line represents a package, followed by an optional version number. If a version number is not specified, pip will install the latest version of the package.
+
+# Here is a breakdown of the packages:
+
+# tensorflow: An open-source machine learning library developed by Google. It is designed for numerical computations, deep learning, and artificial intelligence.
+
+# pandas: A powerful data manipulation library in Python. It provides data structures like DataFrame, Series, and Index.
+
+# dvc: Data Version Control (DVC) is a powerful tool to handle machine learning models, data sets, and any other files that change over time.
+
+# notebook: The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations, and narrative text.
+
+# numpy: A fundamental package for scientific computing in Python. It adds support for large, multi-dimensional arrays and matrices, along with a large collection of high-level mathematical functions to operate on these arrays.
+
+# matplotlib: A plotting library for the Python programming language and its numerical mathematics extension NumPy. It provides an object-oriented API for embedding plots into applications using general-purpose GUI toolkits like Tkinter, wxPython, Qt, or GTK.
+
+# seaborn: A statistical data visualization library based on Matplotlib. It provides a high-level interface for drawing attractive and informative statistical graphics.
+
+# scikit-learn: A set of algorithms and utilities for data mining and data analysis, which are built on top of Python's scipy library.
+
+# scipy: A Python-specific open-source software library used for scientific computing and technical computing.
+
+# python-box==6.0.2: A Python library that simplifies data manipulation, making it possible to use a wider range of data structures, such as tuples, sets, and dictionaries, as keys in dictionaries.
+
+# pyYAML: A YAML parser and emitter for Python and can also be used to parse JSON and other serialization formats.
+
+# tqdm: A fast, extensible progress bar library for Python. It provides an easy-to-use interface for creating and updating progress bars.
+
+# ensure==1.0.2: A library that allows you to create ensembles of different machine learning models. It enables you to train a model ensemble by specifying the model type, architecture, and hyperparameters.
+
+# joblib: A set of tools to speed up the execution of your Python code. It provides a range of functionalities, such as asynchronous I/O, parallel programming, and shared memory access.
+
+# types-pyYAML: A type stub package for the pyYAML library. Type stubs provide a way to inform Python's type checker about the types defined in a module.
+
+# Flask: A lightweight web framework for Python. It is designed to make it easy to build small and simple web applications.
+
+# Flask-Cors: A Flask extension to handle Cross Origin Resource Sharing (CORS), making it easy to build web applications that can be accessed from different domains.
+
+# The purpose of this file is to make it easy for other developers to set up the project by running a single command: pip install -r requirements.txt. This command tells pip to install all the packages listed in the requirements.txt file.
+tensorflow
+pandas
+dvc
+notebook
+numpy
+matplotlib
+seaborn
+scikit-learn
+scipy
+python-box==6.0.2
+pyYAML
+tqdm # to see progress bar when code is taking time to execute
+ensure==1.0.2 
+joblib
+types-pyYAML
+Flask
+Flask-Cors
+-e .
