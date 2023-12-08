@@ -40,6 +40,7 @@
 
 # The purpose of this file is to make it easy for other developers to set up the project by running a single command: pip install -r requirements.txt. This command tells pip to install all the packages listed in the requirements.txt file.
 tensorflow
+joblib
 pandas
 dvc
 notebook
