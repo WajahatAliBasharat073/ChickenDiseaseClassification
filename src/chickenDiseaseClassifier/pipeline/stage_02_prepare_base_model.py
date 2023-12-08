@@ -1,9 +1,10 @@
-from cnnClassifier.config.configuration import ConfigurationManager
-from cnnClassifier.components.prepare_base_model import PrepareBaseModel
-from cnnClassifier import logger
+from chickenDiseaseClassifier.config.configuration import ConfigurationManager
+from chickenDiseaseClassifier.components.prepare_base_model import PrepareBaseModel
+from chickenDiseaseClassifier import logger
 
 
 STAGE_NAME = "Prepare base model"
+
 
 class PrepareBaseModelTrainingPipeline:
     def __init__(self):
@@ -17,18 +18,14 @@ class PrepareBaseModelTrainingPipeline:
         prepare_base_model.update_base_model()
 
 
-
-
-
 if __name__ == '__main__':
     try:
         logger.info(f"*******************")
         logger.info(f">>>>>> stage {STAGE_NAME} started <<<<<<")
         obj = PrepareBaseModelTrainingPipeline()
         obj.main()
-        logger.info(f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
+        logger.info(
+            f">>>>>> stage {STAGE_NAME} completed <<<<<<\n\nx==========x")
     except Exception as e:
         logger.exception(e)
         raise e
-
-

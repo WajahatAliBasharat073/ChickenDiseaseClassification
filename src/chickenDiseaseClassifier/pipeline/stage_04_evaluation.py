@@ -1,6 +1,6 @@
-from cnnClassifier.config.configuration import ConfigurationManager
-from cnnClassifier.components.evaluation import Evaluation
-from cnnClassifier import logger
+from chickenDiseaseClassifier.config.configuration import ConfigurationManager
+from chickenDiseaseClassifier.components.evaluation import Evaluation
+from chickenDiseaseClassifier import logger
 
 
 

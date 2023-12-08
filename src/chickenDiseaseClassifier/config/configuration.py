@@ -1,12 +1,12 @@
-from cnnClassifier.constants import *
+from chickenDiseaseClassifier.constants import *
 import os
 from pathlib import Path
-from cnnClassifier.utils.common import read_yaml, create_directories
-from cnnClassifier.entity.config_entity import (DataIngestionConfig,
-                                                PrepareBaseModelConfig,
-                                                PrepareCallbacksConfig,
-                                                TrainingConfig,
-                                                EvaluationConfig)
+from chickenDiseaseClassifier.utils.common import read_yaml, create_directories
+from chickenDiseaseClassifier.entity.config_entity import (DataIngestionConfig,
+                                                           PrepareBaseModelConfig,
+                                                           PrepareCallbacksConfig,
+                                                           TrainingConfig,
+                                                           EvaluationConfig)
 
 
 class ConfigurationManager:
